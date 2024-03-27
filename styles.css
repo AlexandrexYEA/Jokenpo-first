@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background: url("https://4kwallpapers.com/images/wallpapers/outrun-neon-dark-background-purple-3840x2160-4523.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 5px;
+}
+
+button {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 50px;
+    cursor: pointer;
+    border: black;
+    transition: opacity 0.3s ease-in-out;
+
+}
+
+.emojis {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 16px;
+}
+
+
+button:hover {
+    opacity: 0.7;
+}
+
+#rock {
+    background-color: #ec53a2;
+    width: 85px;
+}
+
+#paper {
+    background-color: greenyellow;
+    width: 85px;
+}
+
+#scissors {
+    background-color: cyan;
+    width: 85px;
+    align-items: center;
+
+}
+
+p {
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+
+
+.p1{
+    color: aquamarine;
+}
+
+.p2{
+    color: red;
+
+}
